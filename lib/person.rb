@@ -13,7 +13,7 @@ class Person
 
   def job
     @job
-  end  
+  end
 end
 
 beyonce = Person.new
