@@ -1,25 +1,12 @@
 class Dog
-  def name(name)
+  def initialize(name)
     @name = name
   end
-
-  def breed(breed)
-    @breed = breed
+ 
+  def name
+    @name
   end
 end
-
-  fido.name = "Fido"
-
-
-class Person
-  def name(name)
-    @name = "beyonce"
-  end
-
-  def job(job)
-    @job = job
-  end
-
-beyonce = Person.new
-
-end
+ 
+fido = Dog.new("fido")
+fido.name
