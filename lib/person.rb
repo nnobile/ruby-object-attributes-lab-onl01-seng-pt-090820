@@ -1,5 +1,5 @@
 class Person
-  def name= (persons_name)
+  def name=(persons_name)
     @name = persons_name
   end
 
@@ -17,7 +17,7 @@ class Person
 end
 
 beyonce = Person.new
-Person.name = "beyonce"
+Person.name = "Beyonce"
 puts beyonce.name
 singer = Person.new
 Person.job = "Singer"
