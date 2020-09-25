@@ -7,7 +7,7 @@ class Dog
     @breed = breed
   end
 end
-  
+
   fido = Dog.new
   snoopy = Dog.new
 
@@ -22,5 +22,3 @@ class Person
   end
 
 beyonce = Person.new
-
-  
