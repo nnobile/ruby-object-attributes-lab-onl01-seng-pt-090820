@@ -8,7 +8,7 @@ class Dog
   end
 end
 
-  fido.name = "fido"
+  fido.name = "Fido"
 
 
 class Person
